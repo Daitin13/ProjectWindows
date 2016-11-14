@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/BD/com.levelup.BD.iml" filepath="$PROJECT_DIR$/BD/com.levelup.BD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/DAO/com.levelup.DAO.iml" filepath="$PROJECT_DIR$/DAO/com.levelup.DAO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Other/com.levelup.Other.iml" filepath="$PROJECT_DIR$/Other/com.levelup.Other.iml" />
+      <module fileurl="file://$PROJECT_DIR$/com.levelup.java.iml" filepath="$PROJECT_DIR$/com.levelup.java.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson1/com.levelup.lesson1.iml" filepath="$PROJECT_DIR$/Lesson1/com.levelup.lesson1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson2/com.levelup.lesson2.iml" filepath="$PROJECT_DIR$/Lesson2/com.levelup.lesson2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Lesson3/com.levelup.lesson3.iml" filepath="$PROJECT_DIR$/Lesson3/com.levelup.lesson3.iml" />
+    </modules>
+  </component>
+</project>
