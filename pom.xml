@@ -11,9 +11,9 @@
     <name>Levelup courses homeworks</name>
 
     <modules>
-        <module>BD</module>
-        <module>DAO</module>
-        <module>Other</module>
+        <module>Core</module>
+        <module>Utill</module>
+        <module>Webservices</module>
     </modules>
 
     <properties>

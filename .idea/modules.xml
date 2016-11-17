@@ -3,9 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/ProjectWindow.iml" filepath="$PROJECT_DIR$/ProjectWindow.iml" />
-      <module fileurl="file://$PROJECT_DIR$/BD/com.levelup.BD.iml" filepath="$PROJECT_DIR$/BD/com.levelup.BD.iml" />
-      <module fileurl="file://$PROJECT_DIR$/DAO/com.levelup.DAO.iml" filepath="$PROJECT_DIR$/DAO/com.levelup.DAO.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Other/com.levelup.Other.iml" filepath="$PROJECT_DIR$/Other/com.levelup.Other.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Core/com.levelup.Core.iml" filepath="$PROJECT_DIR$/Core/com.levelup.Core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Utill/com.levelup.Utill.iml" filepath="$PROJECT_DIR$/Utill/com.levelup.Utill.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Webservices/com.levelup.Webservices.iml" filepath="$PROJECT_DIR$/Webservices/com.levelup.Webservices.iml" />
     </modules>
   </component>
 </project>

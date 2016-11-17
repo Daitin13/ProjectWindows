@@ -23,15 +23,21 @@
         <outputRelativeToContentRoot value="true" />
         <processorPath useClasspath="true" />
         <module name="com.levelup.BD" />
+        <module name="com.levelup.Core" />
         <module name="com.levelup.DAO" />
         <module name="com.levelup.Other" />
+        <module name="com.levelup.Utill" />
+        <module name="com.levelup.Webservices" />
         <module name="ProjectWindow" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="com.levelup.BD" target="1.5" />
+      <module name="com.levelup.Core" target="1.5" />
       <module name="com.levelup.DAO" target="1.5" />
       <module name="com.levelup.Other" target="1.5" />
+      <module name="com.levelup.Utill" target="1.5" />
+      <module name="com.levelup.Webservices" target="1.5" />
       <module name="ProjectWindow" target="1.8" />
     </bytecodeTargetLevel>
   </component>
