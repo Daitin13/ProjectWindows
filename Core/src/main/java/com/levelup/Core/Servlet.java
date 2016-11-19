@@ -1,4 +1,4 @@
-package com.levelup.DAO;
+package com.levelup.Core;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
