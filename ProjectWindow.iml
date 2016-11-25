@@ -8,5 +8,10 @@
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" name="org.apache.tomcat.maven:tomcat-maven-archetype:2.2" level="project" />
+    <orderEntry type="library" name="org.apache.tomcat.maven:tomcat6-maven-plugin:2.2" level="project" />
+    <orderEntry type="library" name="org.apache.tomcat.maven:tomcat7-maven-plugin:2.2" level="project" />
+    <orderEntry type="library" name="org.eclipse.jetty:jetty-maven-plugin:9.0.5.v20130815" level="project" />
+    <orderEntry type="library" name="org.apache.maven.plugins:maven-compiler-plugin:3.3" level="project" />
   </component>
 </module>

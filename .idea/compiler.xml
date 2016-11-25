@@ -31,10 +31,10 @@
         <module name="ProjectWindow" />
       </profile>
     </annotationProcessing>
-    <bytecodeTargetLevel>
-      <module name="com.levelup.Core" target="1.5" />
-      <module name="com.levelup.Utill" target="1.5" />
-      <module name="com.levelup.Webservices" target="1.5" />
+    <bytecodeTargetLevel target="1.8">
+      <module name="com.levelup.Core" target="1.8" />
+      <module name="com.levelup.Utill" target="1.8" />
+      <module name="com.levelup.Webservices" target="1.8" />
       <module name="ProjectWindow" target="1.8" />
     </bytecodeTargetLevel>
   </component>
