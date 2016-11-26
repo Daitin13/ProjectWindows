@@ -8,7 +8,10 @@
     <artifactId>ProjectWindow</artifactId>
     <version>1.0-SNAPSHOT</version>
 
-    <name>Levelup courses homeworks</name>
+    <packaging>pom</packaging>
+
+    <name>ProjectWindow</name>
+    <url>http://maven.apache.org</url>
 
     <modules>
         <module>Core</module>
@@ -65,7 +68,6 @@
             <artifactId>log4j</artifactId>
             <version>1.2.12</version>
         </dependency>
-
         <dependency>
             <groupId>org.postgresql</groupId>
             <artifactId>postgresql</artifactId>
@@ -73,4 +75,36 @@
         </dependency>
     </dependencies>
 
+    <build>
+        <plugins>
+            <!-- Set JDK Compiler Level -->
+            <plugin>
+                <groupId>org.eclipse.jetty</groupId>
+                <artifactId>jetty-maven-plugin</artifactId>
+                <version>9.0.5.v20130815</version>
+            </plugin>
+            <plugin>
+
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.3</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+
+
+            <plugin>
+                <groupId>org.apache.tomcat.maven</groupId>
+                <artifactId>tomcat7-maven-plugin</artifactId>
+                <version>2.2</version>
+                <configuration>
+                    <path>/First</path>
+                </configuration>
+            </plugin>
+        </plugins>
+
+        <finalName>First</finalName>
+    </build>
 </project>

@@ -28,12 +28,11 @@
         <module name="com.levelup.Other" />
         <module name="com.levelup.Utill" />
         <module name="com.levelup.Webservices" />
-        <module name="ProjectWindow" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="com.levelup.Core" target="1.8" />
-      <module name="com.levelup.Utill" target="1.8" />
+      <module name="com.levelup.Utill" target="1.5" />
       <module name="com.levelup.Webservices" target="1.8" />
       <module name="ProjectWindow" target="1.8" />
     </bytecodeTargetLevel>

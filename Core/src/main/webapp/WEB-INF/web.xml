@@ -13,13 +13,14 @@
 
     <servlet>
         <servlet-name>MyFirstServlet</servlet-name>
-        <servlet-class>com.levelup.webservices.MyFirstServlet</servlet-class>
+        <servlet-class>com.levelup.Core.MyFirstServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
         <servlet-name>MyFirstServlet</servlet-name>
         <url-pattern>/dto/*</url-pattern>
     </servlet-mapping>
+
 
 
 
