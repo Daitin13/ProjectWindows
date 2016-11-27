@@ -13,7 +13,7 @@
 
     <servlet>
         <servlet-name>MyFirstServlet</servlet-name>
-        <servlet-class>com.levelup.Core.MyFirstServlet</servlet-class>
+        <servlet-class>com.levelup.MyFirstServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>

@@ -1,4 +1,4 @@
-package com.levelup.Core;
+package com.levelup;
 
     import javax.servlet.ServletException;
     import javax.servlet.ServletOutputStream;

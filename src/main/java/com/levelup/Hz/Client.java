@@ -1,4 +1,4 @@
-package com.levelup.Core.Hz;
+package com.levelup.Hz;
 
 /**
  * Created by Daitin on 19.11.2016.

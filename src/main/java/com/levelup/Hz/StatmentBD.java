@@ -1,4 +1,4 @@
-package com.levelup.Core;
+package com.levelup.Hz;
 
 import com.levelup.Core.Hz.Client;
 

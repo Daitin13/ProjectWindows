@@ -1,4 +1,4 @@
-package com.levelup.Core;
+package com.levelup;
 
 import java.sql.Connection;
 import java.sql.DriverManager;

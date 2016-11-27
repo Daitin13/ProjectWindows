@@ -1,4 +1,4 @@
-package com.levelup.Core.Hz;
+package com.levelup.Hz;
 
 import lombok.Data;
 
