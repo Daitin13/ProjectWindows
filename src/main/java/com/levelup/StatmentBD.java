@@ -1,6 +1,6 @@
-package com.levelup.Hz;
+package com.levelup;
 
-import com.levelup.Core.Hz.Client;
+import com.levelup.Hz.Client;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
