@@ -1,6 +1,7 @@
 package com.levelup;
 
-import com.levelup.Hz.Client;
+import com.levelup.dao.DBConnector;
+import com.levelup.dto.Client;
 
 import java.sql.Connection;
 import java.sql.PreparedStatement;
@@ -13,9 +14,9 @@ import java.util.List;
  * Created by Daitin on 19.11.2016.
  */
 public class StatmentBD {
-    private static void AllKlients() throws SQLException {
+    private static void AllClients() throws SQLException {
         List<Client> clientsList = new ArrayList<>();
-        try (Connection connection = ConnectionBD.getInstance().getConnection();
+        try (Connection connection = DBConnector.getInstance().getConnection();
              PreparedStatement preparedStatement = connection.prepareStatement("SELECT * FROM Clients");
              ResultSet rs = preparedStatement.executeQuery()) {
             while (rs.next()) {
@@ -33,7 +34,7 @@ public class StatmentBD {
 
     private static Client findKlientByID(int id) throws SQLException {
         Client client = new Client();
-        try (Connection connection = ConnectionBD.getInstance().getConnection();
+        try (Connection connection = DBConnector.getInstance().getConnection();
              PreparedStatement preparedStatement = connection.prepareStatement("SELECT * FROM Clients WHERE id_client=?")) {
             preparedStatement.setInt(1, id);
             ResultSet rs = preparedStatement.executeQuery();
@@ -48,7 +49,7 @@ public class StatmentBD {
 
 
     private static boolean createClient(Client client) throws SQLException {
-        try (Connection connection = ConnectionBD.getInstance().getConnection();
+        try (Connection connection = DBConnector.getInstance().getConnection();
              PreparedStatement preparedStatement = connection.prepareStatement("INSERT into clients " +
                      "values(?,?,?,?)")) {
             preparedStatement.setInt(1, client.getIdClient());
@@ -64,7 +65,7 @@ public class StatmentBD {
 
 
     private static boolean deleteClientByID(int id) throws SQLException {
-        try (Connection connection = ConnectionBD.getInstance().getConnection();
+        try (Connection connection = DBConnector.getInstance().getConnection();
              PreparedStatement preparedStatement = connection.prepareStatement("delete from clients where id_client = " + id)) {
             if (preparedStatement.executeUpdate() > 0)
                 return true;
@@ -74,7 +75,7 @@ public class StatmentBD {
 
 
     private static boolean updateClient(Client client) throws SQLException {
-        try (Connection connection = ConnectionBD.getInstance().getConnection();
+        try (Connection connection = DBConnector.getInstance().getConnection();
              PreparedStatement preparedStatement = connection.prepareStatement("UPDATE clients SET " +
                      "first_name = ?, last_name = ?, phone_number = ?" +
                      "WHERE id_client =?")) {

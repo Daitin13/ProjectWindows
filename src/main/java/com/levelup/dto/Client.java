@@ -1,4 +1,4 @@
-package com.levelup.Hz;
+package com.levelup.dto;
 
 /**
  * Created by Daitin on 19.11.2016.
@@ -8,16 +8,6 @@ public class Client {
     private String firstName;
     private String lastName;
     private String phoneNumber;
-
-    @Override
-    public String toString() {
-        return "Client{" +
-                "idClient=" + idClient +
-                ", firsName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", phoneNumber='" + phoneNumber + '\'' +
-                '}';
-    }
 
     public int getIdClient() {
         return idClient;
@@ -61,6 +51,12 @@ public class Client {
     public Client() {
     }
 
+    public Client(String firstName, String lastName, String phoneNumber) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.phoneNumber = phoneNumber;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
@@ -83,4 +79,15 @@ public class Client {
         result = 31 * result + (phoneNumber != null ? phoneNumber.hashCode() : 0);
         return result;
     }
+
+    @Override
+    public String toString() {
+        return "Client{" +
+                "idClient=" + idClient +
+                ", firstName='" + firstName + '\'' +
+                ", lastName='" + lastName + '\'' +
+                ", phoneNumber='" + phoneNumber + '\'' +
+                '}';
+    }
+
 }

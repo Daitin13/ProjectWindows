@@ -1,4 +1,4 @@
-package com.levelup;
+package com.levelup.dao;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -7,20 +7,20 @@ import java.sql.SQLException;
 /**
  * Created by Daitin on 19.11.2016.
  */
-public class ConnectionBD {
-    private static ConnectionBD instance;
-    private ConnectionBD() throws SQLException{
+public class DBConnector implements IDBConnector{
+    private static DBConnector instance;
+    private DBConnector() throws SQLException{
         DriverManager.registerDriver(new org.postgresql.Driver());
     }
-    public static ConnectionBD  getInstance() throws SQLException {
+    public static DBConnector getInstance() throws SQLException {
         if(instance!=null){
             return instance;
         }
-        synchronized (ConnectionBD.class){
+        synchronized (DBConnector.class){
             if(instance!=null){
                 return instance;
             }
-            instance = new ConnectionBD();
+            instance = new DBConnector();
             return instance;
         }
     }
