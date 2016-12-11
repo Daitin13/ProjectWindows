@@ -101,7 +101,7 @@ public class ClientDaoImpl extends AbstractDao implements ClientDao {
              ResultSet rs = preparedStatement.executeQuery()) {
             while (rs.next()) {
                 Client client = new Client();
-                client.setPhoneNumber("55");
+                //client.setPhoneNumber("55");
                 client.setIdClient(rs.getInt("id_client"));
                 client.setFirstName(rs.getString("first_name"));
                 client.setLastName(rs.getString("last_name"));
@@ -110,5 +110,14 @@ public class ClientDaoImpl extends AbstractDao implements ClientDao {
             }
         }
         return clientsList;
+    }
+
+    public static void main(String[] args) throws Exception {
+        ClientDaoImpl client = new ClientDaoImpl();
+        //client.create(new Client("Artur","Ser","050505"));
+
+
+        System.out.println(client.get());
+
     }
 }

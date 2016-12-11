@@ -1,5 +1,4 @@
 C:\Users\Daitin\IdeaProjects\ProjectWindows\src\main\java\com\levelup\Rand.java
-C:\Users\Daitin\IdeaProjects\ProjectWindows\src\main\java\com\levelup\StatmentBD.java
 C:\Users\Daitin\IdeaProjects\ProjectWindows\src\main\java\com\levelup\dto\Client.java
 C:\Users\Daitin\IdeaProjects\ProjectWindows\src\main\java\com\levelup\MySecondServlet.java
 C:\Users\Daitin\IdeaProjects\ProjectWindows\src\main\java\com\levelup\services\ClientService.java
@@ -10,6 +9,7 @@ C:\Users\Daitin\IdeaProjects\ProjectWindows\src\main\java\com\levelup\TestAnotet
 C:\Users\Daitin\IdeaProjects\ProjectWindows\src\main\java\com\levelup\IntitRand.java
 C:\Users\Daitin\IdeaProjects\ProjectWindows\src\main\java\com\levelup\Person.java
 C:\Users\Daitin\IdeaProjects\ProjectWindows\src\main\java\com\levelup\facades\impl\ClientFacadesImpl.java
+C:\Users\Daitin\IdeaProjects\ProjectWindows\src\main\java\com\levelup\facades\ClientFacades.java
 C:\Users\Daitin\IdeaProjects\ProjectWindows\src\main\java\com\levelup\dto\Other.java
 C:\Users\Daitin\IdeaProjects\ProjectWindows\src\main\java\com\levelup\dao\GenericDAO.java
 C:\Users\Daitin\IdeaProjects\ProjectWindows\src\main\java\com\levelup\webservices\ClientWebController.java
@@ -19,5 +19,4 @@ C:\Users\Daitin\IdeaProjects\ProjectWindows\src\main\java\com\levelup\services\i
 C:\Users\Daitin\IdeaProjects\ProjectWindows\src\main\java\com\levelup\dto\Furniture.java
 C:\Users\Daitin\IdeaProjects\ProjectWindows\src\main\java\com\levelup\dao\ClientDao.java
 C:\Users\Daitin\IdeaProjects\ProjectWindows\src\main\java\com\levelup\dao\IDBConnector.java
-C:\Users\Daitin\IdeaProjects\ProjectWindows\src\main\java\com\levelup\facades\ClientsFacades.java
 C:\Users\Daitin\IdeaProjects\ProjectWindows\src\main\java\com\levelup\dto\Glass.java

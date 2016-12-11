@@ -5,7 +5,6 @@ import com.levelup.dao.impl.ClientDaoImpl;
 import com.levelup.dto.Client;
 import com.levelup.facades.ClientFacades;
 import com.levelup.facades.impl.ClientFacadesImpl;
-import com.sun.org.apache.bcel.internal.generic.NEW;
 
 import javax.ws.rs.*;
 import javax.ws.rs.core.MediaType;
@@ -15,7 +14,7 @@ import java.util.List;
 /**
  * Created by Daitin on 27.11.2016.
  */
-@Path("client")
+@Path("/client")
 public class ClientWebController {
     private ClientDao clientDao = new ClientDaoImpl();
 
@@ -25,7 +24,7 @@ public class ClientWebController {
         System.out.println("Init person web controller");
     }
     @GET
-    @Path("{id}")
+    @Path("/{id}")
     @Produces(MediaType.APPLICATION_JSON)
     public Client getClientByID(@PathParam("id") int id) throws SQLException {
         System.out.println("asdf");
@@ -33,6 +32,7 @@ public class ClientWebController {
 
     }
     @GET
+    //@Path("{all}")
     @Produces(MediaType.APPLICATION_JSON)
     public List<Client> getClient() throws SQLException {
         System.out.println("asdf");

@@ -1,3 +1,4 @@
+com\levelup\facades\ClientFacades.class
 com\levelup\dao\IDBConnector.class
 com\levelup\dto\Glass.class
 com\levelup\Rand.class
@@ -5,11 +6,9 @@ com\levelup\TestAnotetion.class
 com\levelup\dao\impl\ClientDaoImpl.class
 com\levelup\dto\Other.class
 com\levelup\MySecondServlet.class
-com\levelup\facades\ClientsFacades.class
 com\levelup\Person.class
 com\levelup\dao\GenericDAO.class
 com\levelup\facades\impl\ClientFacadesImpl.class
-com\levelup\StatmentBD.class
 com\levelup\dto\Profile.class
 com\levelup\dto\Client.class
 com\levelup\webservices\ClientWebController.class
